@@ -61,7 +61,12 @@
         "namedComponents": "arrow-function",
         "unnamedComponents": "arrow-function"
       }
-    ]
+    ],
+    "react/jsx-props-no-spreading": "off",
+    "jsx-a11y/label-has-associated-control": "off",
+    "jsx-a11y/label-has-for": "off",
+    "react/require-default-props": 0,
+    "react/default-props-match-prop-types": 0
   },
   "settings": {
     "import/resolver": {
