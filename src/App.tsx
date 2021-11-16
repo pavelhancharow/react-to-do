@@ -1,11 +1,12 @@
 import { FC } from 'react';
+import { TodoInput } from './components/TodoInput';
+import { TodoList } from './components/TodoList';
 
-const App: FC = (): JSX.Element => {
+export const App: FC = (): JSX.Element => {
   return (
     <div className="App">
-      <p>Hello World</p>
+      <TodoInput />
+      <TodoList />
     </div>
   );
 };
-
-export { App };
