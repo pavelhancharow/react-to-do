@@ -1,0 +1,35 @@
+.item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 8px 15px;
+  margin-bottom: 15px;
+  border: 1px solid #a5a5a5;
+  border-radius: 4px;
+
+  &-btns {
+    display: flex;
+    align-items: center;
+  }
+}
+
+.w30 {
+  width: 30% !important;
+}
+
+.btn {
+  width: 25px !important;
+  height: 25px !important;
+}
+
+.btn::after {
+  content: none !important;
+}
+
+.edit {
+  background: center no-repeat url(../../assets/pencil.png) transparent !important;
+}
+
+.remove {
+  background: center no-repeat url(../../assets/trash.png) transparent !important;
+}
