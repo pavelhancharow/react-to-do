@@ -4,6 +4,8 @@ To Do is a task management app to help you stay organized and manage your day-to
 
 ### Deploy: [To Do App](https://pavelhancharow-to-do-app.netlify.app)
 
+![todo_app](https://user-images.githubusercontent.com/56205600/142271154-009bdbe6-f1a2-4379-9bed-d159acc9f599.png)
+
 ## Installation
 
 Use the node package manager to install To Do App.
@@ -39,3 +41,4 @@ See the section about [deployment](https://facebook.github.io/create-react-app/d
 👤 **Pavel Hancharou**
 
 - gmail: `pl.hancharou@gmail.com`
+- linkedIn: `https://www.linkedin.com/in/hancharou/`
