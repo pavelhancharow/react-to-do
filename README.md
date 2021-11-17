@@ -2,6 +2,8 @@
 
 To Do is a task management app to help you stay organized and manage your day-to-day. You can use To Do App to make shopping lists or task lists, take notes, record collections, plan an event, or set reminders to increase your productivity and focus on what matters to you. To Do App makes it easy to stay organized and manage your life.
 
+### Deploy: [To Do App](https://pavelhancharow-to-do-app.netlify.app)
+
 ## Installation
 
 Use the node package manager to install To Do App.
