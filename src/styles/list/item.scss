@@ -6,30 +6,48 @@
   margin-bottom: 15px;
   border: 1px solid #a5a5a5;
   border-radius: 4px;
+  cursor: move;
+  cursor: grab;
+  cursor: -moz-grab;
+  cursor: -webkit-grab;
+  &:active {
+    cursor: grabbing;
+    cursor: -moz-grabbing;
+    cursor: -webkit-grabbing;
+  }
 
   &-btns {
     display: flex;
     align-items: center;
   }
+
+  & > span {
+    transition: all 0.5s;
+  }
+}
+
+.line {
+  text-decoration: line-through;
+  color: red;
 }
 
 .w30 {
-  width: 30% !important;
+  width: 30%;
 }
 
 .btn {
-  width: 25px !important;
-  height: 25px !important;
+  width: 25px;
+  height: 25px;
 }
 
 .btn::after {
-  content: none !important;
+  content: none;
 }
 
 .edit {
-  background: center no-repeat url(../../assets/pencil.png) transparent !important;
+  background: center no-repeat url(../../assets/pencil.png) transparent;
 }
 
 .remove {
-  background: center no-repeat url(../../assets/trash.png) transparent !important;
+  background: center no-repeat url(../../assets/trash.png) transparent;
 }
